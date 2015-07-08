@@ -16,17 +16,17 @@ Syntax example:
   
   ```
   element:after {
-  content: "";
-}
+    content: "";
+  }
 
 
   element:before {
      content: "";
-}
+  }
   ```
   ```
   input:invalid {
-   background-color: #ffdddd;
+     background-color: #ffdddd;
   }
   ```
   
