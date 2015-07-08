@@ -30,5 +30,5 @@ $(document).ready(function () {
   $("#datepicker").datepicker(); 
   $("#draggable").draggable();
   $("#draggable").resizable(); 
-  $( "#sortable" ).sortable();
+  $("#sortable").sortable();
  });
