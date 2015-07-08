@@ -13,6 +13,17 @@ Syntax example:
       style properties; 
   }
   ```
+  
+  ```
+  element:after {
+  content: "";
+}
+
+
+  element:before {
+     content: "";
+}
+  ```
   ```
   input:invalid {
    background-color: #ffdddd;
