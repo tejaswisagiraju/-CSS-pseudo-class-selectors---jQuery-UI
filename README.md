@@ -32,5 +32,3 @@ $(document).ready(function () {
   $("#draggable").resizable(); 
   $( "#sortable" ).sortable();
  });
- 
-'''
