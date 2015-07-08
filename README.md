@@ -3,9 +3,11 @@
 A CSS pseudo-class is a keyword added to selectors that specifies a special state of the element to be selected. 
  
 Syntax example: 
+```
   selector:pseudo-class {
     property: value;
   } 
+  ```
   
 Some of the selectors include: hover, before, after, n-child, link, visited, active
 Link to all the different selectors and their description: https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes
