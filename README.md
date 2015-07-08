@@ -8,9 +8,26 @@ Syntax example:
     property: value;
   } 
   ```
+  ```
+  element:nth-child(an + b) {
+      style properties; 
+  }
+  ```
+  ```
+  input:invalid {
+   background-color: #ffdddd;
+  }
+  ```
   
 Some of the selectors include: hover, before, after, n-child, link, visited, active. </br>
 Link to all the different selectors and their description: https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes
  
 jQuery UI is away to make your html elements more interactive and some examples include dragging and resizing. </br>
 link to docs: https://jqueryui.com 
+
+```
+        $("#datepicker").datepicker();
+        $("#draggable").draggable();
+        $("#draggable").resizable();
+        $( "#sortable" ).sortable();
+'''
