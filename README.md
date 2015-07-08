@@ -26,8 +26,11 @@ jQuery UI is away to make your html elements more interactive and some examples 
 link to docs: https://jqueryui.com 
 
 ```
-        $("#datepicker").datepicker();
-        $("#draggable").draggable();
-        $("#draggable").resizable();
-        $( "#sortable" ).sortable();
+$(document).ready(function () {
+  $("#datepicker").datepicker(); 
+  $("#draggable").draggable();
+  $("#draggable").resizable(); 
+  $( "#sortable" ).sortable();
+ });
+ 
 '''
